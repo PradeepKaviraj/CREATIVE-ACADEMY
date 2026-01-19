@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="939.5" height="694.5" viewBox="0 0 939.5 694.5">
+  <defs>
+    <filter id="Rectangle_8" x="85" y="69" width="272" height="100.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11" x="0" y="594" width="232" height="100.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1343" data-name="Group 1343" transform="translate(-813.5 -206)">
+    <g transform="matrix(1, 0, 0, 1, 813.5, 206)" filter="url(#Rectangle_8)" style="mix-blend-mode: normal;isolation: isolate">
+      <path id="Rectangle_8-2" data-name="Rectangle 8" d="M248,0a15,15,0,0,1,15,15V76a15,15,0,0,1-15,15H15A15,15,0,0,1,0,76V15A15,15,0,0,1,15,0Z" transform="translate(89.5 69)" fill="#f5f5f5"/>
+    </g>
+    <path id="Rectangle_10" data-name="Rectangle 10" d="M35,0a8,8,0,0,1,8,8V35a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(930 299)" fill="#e13c5b" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="collections_bookmark" d="M20.25,15.75V2.25H6.75v13.5ZM18,2.25v7.875L15.188,8.438l-2.812,1.688V2.25M5.161,17.339A2.167,2.167,0,0,1,4.5,15.75V2.25A2.167,2.167,0,0,1,5.161.661,2.167,2.167,0,0,1,6.75,0h13.5a2.167,2.167,0,0,1,1.589.661A2.167,2.167,0,0,1,22.5,2.25v13.5A2.256,2.256,0,0,1,20.25,18H6.75A2.167,2.167,0,0,1,5.161,17.339Zm-4.5,4.5A2.167,2.167,0,0,1,0,20.25V4.5H2.25V20.25H18V22.5H2.25A2.167,2.167,0,0,1,.661,21.839ZM6.75,2.25h13.5" transform="translate(940.25 309.25)" fill="#f5f5f5" style="mix-blend-mode: normal;isolation: isolate"/>
+    <text id="_500_" data-name="500+" transform="translate(992 296)" font-size="24" font-family="Montserrat" font-weight="700" style="mix-blend-mode: normal;isolation: isolate"><tspan x="0" y="23">500+</tspan></text>
+    <text id="Student_Trained" data-name="Student Trained" transform="translate(992 326)" fill="#797c8b" font-size="16" font-family="Montserrat" style="mix-blend-mode: normal;isolation: isolate"><tspan x="0" y="15">Student Trained</tspan></text>
+    <path id="Rectangle_12" data-name="Rectangle 12" d="M0,0H22.894V22.894H0Z" transform="matrix(0.706, 0.708, -0.708, 0.706, 1624.204, 259)" fill="#f5cc00" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="Rectangle_13" data-name="Rectangle 13" d="M0,0H15.41V15.41H0Z" transform="translate(1101.594 477.922) rotate(80.3)" fill="#e13c5b" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="Ellipse_3" data-name="Ellipse 3" d="M0,13.5A13.5,13.5,0,1,1,13.5,27,13.5,13.5,0,0,1,0,13.5Z" transform="translate(1222 206)" fill="#e13c5b" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="Ellipse_4" data-name="Ellipse 4" d="M0,8a8,8,0,1,1,8,8A8,8,0,0,1,0,8Z" transform="translate(1531 459)" fill="#e13c5b" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="Ellipse_5" data-name="Ellipse 5" d="M0,18A17.755,17.755,0,0,1,17.5,0,17.755,17.755,0,0,1,35,18,17.755,17.755,0,0,1,17.5,36,17.755,17.755,0,0,1,0,18Z" transform="translate(1718 366)" fill="#734ef4" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="Rectangle_14" data-name="Rectangle 14" d="M56,0A10,10,0,0,1,66,10V56A10,10,0,0,1,56,66H10A10,10,0,0,1,0,56V10A10,10,0,0,1,10,0Z" transform="translate(870 442)" fill="#734ef4" style="mix-blend-mode: normal;isolation: isolate"/>
+    <path id="school" d="M9.667,34.317v-14.5L0,14.5,26.583,0,53.167,14.5V33.833H48.333V17.158L43.5,19.817v14.5L26.583,43.5ZM43.138,14.5,26.583,5.558,10.029,14.5l16.554,8.942ZM38.667,31.477V22.354L26.583,29,14.5,22.354v9.123L26.583,38Z" transform="translate(876.417 453.25)" fill="#f5f5f5" style="mix-blend-mode: normal;isolation: isolate"/>
+    <g transform="matrix(1, 0, 0, 1, 813.5, 206)" filter="url(#Rectangle_11)" style="mix-blend-mode: normal;isolation: isolate">
+      <path id="Rectangle_11-2" data-name="Rectangle 11" d="M208,0a15,15,0,0,1,15,15V76a15,15,0,0,1-15,15H15A15,15,0,0,1,0,76V15A15,15,0,0,1,15,0Z" transform="translate(4.5 594)" fill="#fff"/>
+    </g>
+    <path id="Rectangle_15" data-name="Rectangle 15" d="M41,0A10,10,0,0,1,51,10V41A10,10,0,0,1,41,51H10A10,10,0,0,1,0,41V10A10,10,0,0,1,10,0Z" transform="translate(840 820)" fill="#f5cc00" style="mix-blend-mode: normal;isolation: isolate"/>
+    <text id="_1" data-name="#1" transform="translate(852 831)" fill="#fff" font-size="24" font-family="Montserrat" font-weight="700" style="mix-blend-mode: normal;isolation: isolate"><tspan x="0" y="23">#1</tspan></text>
+    <text id="Top_Learning" data-name="Top Learning" transform="translate(903 824)" font-size="16" font-family="Montserrat" font-weight="700" style="mix-blend-mode: normal;isolation: isolate"><tspan x="0" y="15">Top Learning</tspan></text>
+    <text id="Creative_Academy_" data-name="Creative Academy " transform="translate(903 849)" fill="#797c8b" font-size="14" font-family="Montserrat" style="mix-blend-mode: normal;isolation: isolate"><tspan x="0" y="14">Creative Academy </tspan></text>
+  </g>
+</svg>
