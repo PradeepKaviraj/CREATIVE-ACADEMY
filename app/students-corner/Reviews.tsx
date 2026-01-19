@@ -36,7 +36,12 @@ const Reviews = () => {
     const currentPage = 1;
     const offset = (currentPage - 1) * itemsPerPage;
     return (
-        <motion.div className='flex gap-5 mx-auto max-w-[90%] flex-wrap justify-center py-8 relative pb-20'>
+        <motion.div 
+        initial={{ x: -120, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: false, amount: 0.5 }}
+        className='flex gap-5 mx-auto max-w-[90%] flex-wrap justify-center py-8 relative pb-20'>
 
             {
                 studentReview.map((students) => (
