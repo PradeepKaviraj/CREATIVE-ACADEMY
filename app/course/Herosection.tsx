@@ -83,7 +83,7 @@ const Herosection = () => {
                 </div>
 
                 {/* Boy-Image */}
-                <div className='absolute bottom-0 lg:bottom-10 xl:bottom-0 2xl:bottom-50'>
+                <div className='absolute bottom-0 lg:bottom-10 xl:bottom-20 2xl:bottom-50'>
                     <Image src={Boy} alt='Boy-Image' priority={true} className='w-80 h-90 lg:w-105 lg:h-115 xl:w-140 xl:h-135 relative ' />
                 </div>
             </motion.section>

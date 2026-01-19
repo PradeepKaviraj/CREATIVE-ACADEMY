@@ -66,20 +66,20 @@ const Herosection = () => {
                     <Image src={Diamond} alt='Diamond' priority={true} className='w-6 h-6 animate-pulse [animation-duration:3s] [animation-delay:500ms] ease-in-out' />
                 </div>
 
-                <div className='absolute top-25 left-5 lg:left-10 xl:top-34 xl:left-15 2xl:left-40 2xl:top-30'>
+                <div className='absolute top-25 left-5 lg:left-10 xl:top-28 xl:left-15 2xl:left-40 2xl:top-30'>
                     <Image src={Thunder} alt='thunder' priority={true} className='w-25 h-15 lg:w-35 lg:h-20 animate-pulse [animation-duration:3s] [animation-delay:500ms] ease-in-out' />
                 </div>
 
-                <div className='absolute top-25 right-50  lg:right-60 xl:left-80 lg:top-48 2xl:left-96 2xl:top-40 '>
+                <div className='absolute top-25 right-50  lg:right-60 xl:left-80 lg:top-48 xl:top-40 2xl:left-96 2xl:top-40 '>
                     <Image src={Redcircle} alt='circle' priority={true} className='w-6 h-6 animate-pulse [animation-duration:3s] [animation-delay:500ms] ease-in-out' />
                 </div>
 
-                <div className='absolute top-58 lg:top-85 right-30  lg:right-40 xl:top-90 xl:right-68 2xl:top-80 2xl:left-105'>
+                <div className='absolute top-58 lg:top-85 right-30  lg:right-40 xl:top-80 xl:right-68 2xl:top-80 2xl:left-105'>
                     <Image src={Redcircle} alt='circle' priority={true} className='w-4 h-4 animate-pulse [animation-duration:3s] [animation-delay:500ms] ease-in-out' />
                 </div>
 
                 {/* Girl-Image */}
-                <div className='absolute bottom-0 lg:bottom-10 xl:bottom-0 2xl:bottom-50'>
+                <div className='absolute bottom-0 lg:bottom-10 xl:bottom-20 2xl:bottom-50'>
                     <Image src={Boy} alt='Boy-Image' priority={true} className='w-80 h-90 lg:w-105 lg:h-115 xl:w-140 xl:h-135 relative ' />
                 </div>
             </motion.section>
