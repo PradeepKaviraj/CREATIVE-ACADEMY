@@ -52,7 +52,7 @@ const Stories = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     viewport={{ once: false, amount: 0.5 }}
-                    className="text-xl lg:text-3xl xl:text-4xl font-bold text-[#000000] max-w-auto mx-auto leading-tight">
+                    className="text-xl lg:text-3xl xl:text-4xl font-bold text-[#000000] max-w-auto mx-auto leading-12">
                     Where our graduates are making their mark <br />
                     in the creative industry
                 </motion.h2>
@@ -116,12 +116,12 @@ const Stories = () => {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: false, amount: 0.5 }}
                 className="flex justify-end gap-4 mt-10">
-                <button onClick={prev} disabled={index === 0} className="w-12 h-12 border-2 border-[#000080] rounded-full flex items-center justify-center text-[#000080] text-xl">
+                <button onClick={prev} disabled={index === 0} className={ index === 0 ? 'w-12 h-12 border-2 border-gray-400 rounded-full flex items-center justify-center text-gray-500 text-xl cursor-pointer' : 'w-12 h-12 border-2 border-[#000080] rounded-full flex items-center justify-center text-[#000080] text-xl hover:scale-105 cursor-pointer'}>
                     ←
                 </button>
 
                 <button onClick={next}
-                    disabled={index >= cardsData.length - 2} className="w-12 h-12 border-2 border-[#000080] rounded-full flex items-center justify-center text-[#000080] text-xl">
+                    disabled={index >= cardsData.length - 2} className={ index >= cardsData.length - 2 ?'w-12 h-12 border-2 border-gray-400 rounded-full flex items-center justify-center text-gray-400 text-xl cursor-pointer':'w-12 h-12 border-2 border-[#000080] rounded-full flex items-center justify-center text-[#000080] text-xl hover:scale-105 cursor-pointer'}>
                     →
                 </button>
             </motion.div>

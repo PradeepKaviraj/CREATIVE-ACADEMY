@@ -59,7 +59,7 @@ const Enquiry = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     viewport={{ once: false, amount: 0.5 }}
-                    className="text-xl lg:text-4xl font-montserrat font-bold max-w-5xl mx-auto ">
+                    className="text-xl lg:text-4xl font-montserrat font-bold max-w-5xl mx-auto leading-12">
                     Where our graduates are making their mark <br />
                     in the creative industry
                 </motion.p>

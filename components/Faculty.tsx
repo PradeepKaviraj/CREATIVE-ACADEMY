@@ -17,13 +17,13 @@ const Faculty = ({user}:{user:User}) => {
 
   return (
     <div>
-      <div className='w-70 h-60 relative rounded-4xl bg-[#F2F2F2]'>
-        {user.image && <Image src={user.image} alt={user.name} fill className='object-cover' />}
+      <div className=' h-70 relative rounded-4xl bg-[#F2F2F2]'>
+        {user.image && <Image src={user.image} alt={user.name} fill className='object-center' />}
       </div>
-      <div className='bg-[#F5F5FF] text-[#424242] w-70 my-5 rounded-3xl py-2 relative'>
-        <div className='text-center'>
+      <div className='bg-[#F5F5FF] text-[#424242]  my-5 rounded-3xl py-2 relative'>
+        <div className='text-center px-4'>
           <h1 className='text-lg font-montserrat font-bold'>{user.name}</h1>
-          <h2 className='text-xs font-montserrat pb-2'>{user.designation}</h2>
+          <h2 className='text-sm font-montserrat pb-2'>{user.designation}</h2>
           {
             !Show ? <button onClick={() => setShow(!Show)} className='absolute top-3 right-4 cursor-pointer hover:top-3'>
               <Image src={Addbtn} alt='add-btn' className='w-5 h-5 ' />
@@ -33,8 +33,8 @@ const Faculty = ({user}:{user:User}) => {
           }
         </div>
         {
-          Show ? <div className='border-t-2'>
-            <p className='px-5 text-sm py-5'>{user.bio ?? 'No Data Available'}</p>
+          Show ? <div className='border-t'>
+            <p className='px-5 text-[16px] py-5'>{user.bio ?? 'No Data Available'}</p>
           </div> : "" 
         }
 

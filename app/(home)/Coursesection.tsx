@@ -10,6 +10,7 @@ import expertfacultyicon from '@/public/faculty.png'
 import portfolioicon from '@/public/portfolioicon.png'
 import leftrocket from '@/public/leftrocket.png'
 import { motion } from 'framer-motion';
+import Link from "next/link";
 
 
 const Coursesection = () => {
@@ -29,7 +30,7 @@ const Coursesection = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     viewport={{ once: false, amount: 0.5 }}
-                    className="text-lg lg:text-2xl xl:text-4xl font-bold font-montserrat text-[#000000] max-w-5xl mx-auto">
+                    className="text-lg lg:text-2xl xl:text-4xl font-bold font-montserrat leading-12 text-[#000000] max-w-5xl mx-auto">
                     We offer engaging, interactive art courses students love.
                     Scroll below to enroll today.
                 </motion.h2>
@@ -44,9 +45,10 @@ const Coursesection = () => {
                 className="flex lg:mx-auto h-full max-w-max gap-5  mb-32">
 
                 {/* CARD 1 */}
-                <div className="bg-[#FFFDF2] rounded-2xl relative hover:-top-10 cursor-pointer">
-
-                    <div className="absolute top-2 right-2">
+                <div className="bg-[#FFFDF2] rounded-2xl relative group cursor-pointer">
+                    
+                    <Link href={'/1'} >
+                    <div className="absolute top-2 right-2 group-hover:scale-150">
                         <Image src={showarc} alt="share" className="w-10 h-10" />
                     </div>
 
@@ -58,6 +60,7 @@ const Coursesection = () => {
                             className="w-150 h-60 lg:w-120 lg:h-80 xl:h-100 "
                         />
                     </div>
+                    </Link>
 
                     {/* TITLE */}
                     <h3 className="text-lg lg:text-2xl xl:text-[28px] font-montserrat p-6 font-bold mb-2">
@@ -78,9 +81,10 @@ const Coursesection = () => {
 
 
                 {/* CARD 2 */}
-                <div className="bg-[#F2FEFF] rounded-2xl relative hover:-top-10 cursor-pointer">
-
-                    <div className="absolute top-2 right-2">
+                <div className="bg-[#F2FEFF] rounded-2xl relative group cursor-pointer">
+                    
+                    <Link href={'/2'} >
+                    <div className="absolute top-2 right-2  group-hover:scale-150">
                         <Image src={showarc} alt="share" className="w-10 h-10" />
                     </div>
 
@@ -92,6 +96,7 @@ const Coursesection = () => {
                             className="w-150 h-60 lg:w-120 lg:h-80 xl:h-100 "
                         />
                     </div>
+                    </Link>
 
                     {/* TITLE */}
                     <h3 className="text-lg lg:text-2xl xl:text-[28px] font-montserrat p-6 font-bold mb-2">
@@ -114,12 +119,12 @@ const Coursesection = () => {
                 </div>
 
                 {/* CARD 3 */}
-                <div className="bg-[#F2FEFF] rounded-2xl relative hover:-top-10 cursor-pointer">
-
-                    <div className="absolute top-2 right-2">
+                <div className="bg-[#F2FEFF] rounded-2xl relative group cursor-pointer w-150 lg:w-120">
+                    <Link href={'/3'} >
+                    <div className="absolute top-2 right-2  group-hover:scale-150">
                         <Image src={showarc} alt="share" className="w-10 h-10" />
                     </div>
-
+                    
                     {/* IMAGE */}
                     <div className="mb-2  rounded-xl">
                         <Image
@@ -128,9 +133,9 @@ const Coursesection = () => {
                             className="w-150 h-60 lg:w-120 lg:h-80 xl:h-100"
                         />
                     </div>
-
+                     </Link>
                     {/* TITLE */}
-                    <h3 className="text-lg lg:text-2xl xl:text-[28px] font-montserrat font-bold px-6 pt-6">
+                    <h3 className="text-lg lg:text-2xl xl:text-[28px] font-montserrat font-bold p-6">
                         Graphic Design & Video Editing
                     </h3>
 

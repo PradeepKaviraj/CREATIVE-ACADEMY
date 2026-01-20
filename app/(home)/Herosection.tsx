@@ -4,12 +4,13 @@ import { motion } from "framer-motion";
 import background from '@/public/Hero-BG.svg'
 import Playbuttonimg from '@/public/Playbuttonimg.png';
 import student from '@/public/student-herosec.png';
+import Link from 'next/link';
 
 
 const Herosection = () => {
     return (
-        <main className="bg-[#F5FAFF] overflow-hidden flex px-10 lg:px-20 xl:px-30 pt-15 h-110 lg:h-screen  justify-center">
-            
+        <main className="bg-[#F5FAFF] overflow-hidden flex px-10 lg:px-20 xl:px-30 pt-15 h-120 lg:h-screen  justify-center">
+
             <motion.section
                 initial={{ x: -120, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
@@ -67,10 +68,13 @@ const Herosection = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     viewport={{ once: false, amount: 0.5 }}
                     className="flex flex-row items-center mt-10  gap-10">
+                    <Link href={'/who-we-are'}>
                     <button className="bg-[#000080] text-sm lg:text-lg rounded-[10px] flex items-center justify-center py-2 px-4 text-[#FFFFFF] font-bold font-montserrat cursor-pointer hover:scale-105 transition-transform duration-75 ease-in-out">
                         <span className='opacity-90'>Learn More</span>
                     </button>
+                    </Link>
 
+                    <Link href={'/course'}>
                     <button className="hover:scale-105 cursor-pointer  ml-5 flex flex-row items-center ">
                         <Image
                             src={Playbuttonimg}
@@ -79,28 +83,24 @@ const Herosection = () => {
                             height={50}
                             priority={true}
                             className="w-10 h-10 "
-                        />
+                            />
                         <span className="text-sm lg:text-[20px] ml-5  font-montserrat font-bold">
                             Show More
                         </span>
                     </button>
+                            </Link>
                 </motion.div>
             </motion.section>
 
 
             <section className=" w-[50%] relative  ">
                 <motion.div
-                    className=' absolute -left-20 -top-50 xl:-top-30 xl:right-0 '
-                    animate={{
-                        y: ['50%', '-50%'],
-                        opacity: [1, 0]
-                    }}
-                    transition={{
-                        duration: 20,
-                        repeat: Infinity,
-                        repeatType: "loop",
-                        ease: 'linear'
-                    }}>
+                    initial={{ y: 120, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.8, delay: 0.9 }}
+                    viewport={{ once: false, amount: 0.5 }}
+                    className=' absolute -left-10 lg:-left-5 xl:-left-10 -top-50 xl:-top-30 xl:right-0 '
+                >
                     <Image src={background} alt='Background Image' priority={true} className='relative w-180 h-180 xl:w-200 xl:h-200  z-10'></Image>
                 </motion.div>
                 <div className='absolute top-10 2xl:left-10'>
@@ -112,3 +112,18 @@ const Herosection = () => {
 }
 
 export default Herosection
+
+
+
+
+
+// animate={{
+//                         y: ['50%', '-50%'],
+//                         opacity: [1, 0]
+//                     }}
+//                     transition={{
+//                         duration: 20,
+//                         repeat: Infinity,
+//                         repeatType: "loop",
+//                         ease: 'linear'
+//                     }}

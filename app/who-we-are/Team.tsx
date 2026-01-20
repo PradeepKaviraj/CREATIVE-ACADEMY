@@ -1,5 +1,5 @@
 'use client'
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Shilpa from '@/public/Shilpa-Prakash.png'
 import { useState } from 'react';
@@ -155,7 +155,7 @@ const Team = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: false, amount: 0.5 }}
-                className='w-4/5 lg:w-11/12 xl:w-5/6 2xl:w-7xl py-10 mx-auto  flex  flex-wrap gap-5 '>
+                className='w-[90%] xl:w-[80%] 2xl:w-[70%] py-10 mx-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8  '>
                 {
                     facultyDetails.map((user) => (
                         <Faculty key={user.id} user={user} />
