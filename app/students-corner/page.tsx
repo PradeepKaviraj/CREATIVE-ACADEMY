@@ -4,7 +4,7 @@ import Reviews from './Reviews'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Herosection/>
         <Reviews/>
     </div>

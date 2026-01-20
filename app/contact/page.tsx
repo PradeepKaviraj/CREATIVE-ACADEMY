@@ -5,7 +5,7 @@ import Contact from './Contact'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Herosection/>
         <Contact/>
     </div>

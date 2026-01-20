@@ -4,7 +4,7 @@ import Mainsection from './Mainsection'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Herosection/>
         <Mainsection/>
     </div>

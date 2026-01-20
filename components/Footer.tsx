@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="bg-[#000080] rounded-[80px] px-20 py-10 text-center text-white overflow-hidden ">
 
           {/* Decorative circles (optional, can remove later) */}
-          <div className="absolute top-12 left-10 w-20 h-20 bg-[#E13C5B] rounded-full " />
+          <div className="absolute top-8 lg:top-15 left-10 w-20 h-20 bg-[#E13C5B] rounded-full " />
           <div className="absolute bottom-12 right-10 w-20 h-20 bg-yellow-400 rounded-full" />
 
           <h3 className="text-xl lg:text-3xl  font-montserrat font-bold mb-4 text-yellow-400">
@@ -84,7 +84,7 @@ const Footer = () => {
         className="max-w-7xl mx-auto grid grid-cols-4  xl:gap-10 text-sm py-20 justify-evenly">
 
         {/* INFORMATION */}
-        <div className='px-5 xl:px-10'>
+        <div className='px-4 xl:px-10'>
           <h5 className="font-bold text-sm lg:text-lg xl:text-[18px] mb-4 text-shadow-lg">Information</h5>
           <ul className="space-y-2 text-xs lg:text-sm xl:text-[15.5px] text-[#4D4D4D] text-shadow-lg">
             <li>Fashion Design</li>
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
 
         {/* CONTACT */}
-        <div className='w-60 lg:w-80 xl:w-100'>
+        <div className='w-50 lg:w-80 xl:w-100'>
           <h5 className="font-bold text-sm lg:text-[18px] mb-4 text-shadow-lg">Contact</h5>
           <ul className="space-y-2 text-xs lg:text-sm xl:text-[15.5px] text-[#4D4D4D] text-shadow-lg">
             <li>Phone : +90355 13377 / 90351 80580</li>
@@ -108,7 +108,7 @@ const Footer = () => {
         </div>
 
         {/* MENU */}
-        <div className='px-25 lg:px-20 xl:px-25'>
+        <div className='px-10 lg:px-20 xl:px-25'>
           <h5 className="font-bold text-sm lg:text-[18px] mb-4 text-shadow-lg">Menu</h5>
           <ul className="space-y-2 text-xs lg:text-[15.5px] text-[#4D4D4D] text-shadow-lg">
             <li>About</li>
@@ -118,7 +118,7 @@ const Footer = () => {
         </div>
 
         {/* ABOUT */}
-        <div className=''>
+        <div className='mr-6'>
           <h5 className="font-bold text-sm lg:text-[18px] mb-4 text-shadow-lg">The Creative Academy</h5>
           <p className="text-xs lg:text-[15.5px] text-[#4D4D4D] mb-4 text-shadow-lg">
             Join us today and turn your creative passion into a thriving career.

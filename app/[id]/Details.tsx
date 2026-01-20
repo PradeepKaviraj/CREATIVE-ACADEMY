@@ -51,7 +51,7 @@ const Details = ({ data }: { data: Course }) => {
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     viewport={{ once: false, amount: 0.5 }}
-                    className='w-[80%] relative'>
+                    className='w-[70%] relative'>
                     <Image src={data?.image} alt={data.course} fill className='w-60 h-115 lg:w-80 lg:h-135 xl:w-130 xl:h-185 relative' />
                 </motion.div>
                 <motion.div
@@ -94,12 +94,12 @@ const Details = ({ data }: { data: Course }) => {
                                         transition={{ duration: 0.8, delay: 0.2 }}
                                         viewport={{ once: false, amount: 0.5 }}
                                         key={service.id}
-                                        className="group [perspective:1000px]" // Group stays here to trigger the flip
+                                        className="group perspective-[1000px]" // Group stays here to trigger the flip
                                     >
-                                        <div className="relative w-40 h-40 lg:w-52 lg:h-52 xl:w-72 xl:h-72 2xl:w-80 2xl:h-80 transition-all duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                                        <div className="relative w-40 h-40 lg:w-52 lg:h-52 xl:w-72 xl:h-72 2xl:w-80 2xl:h-80 transition-all duration-700 transform-3d group-hover:transform-[rotateY(180deg)]">
 
                                             {/* FRONT SIDE (Image) */}
-                                            <div className="absolute inset-0 w-full h-full [backface-visibility:hidden]">
+                                            <div className="absolute inset-0 w-full h-full backface-hidden">
                                                 <Image
                                                     src={service?.image}
                                                     alt="Fashion"
@@ -109,7 +109,7 @@ const Details = ({ data }: { data: Course }) => {
                                             </div>
 
                                             {/* BACK SIDE (Yellow Content) */}
-                                            <div className="absolute inset-0 w-full h-full bg-[#F5CC00E6] flex flex-col justify-center items-center rounded-[40px] [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                                            <div className="absolute inset-0 w-full h-full bg-[#F5CC00E6] flex flex-col justify-center items-center rounded-[40px] backface-hidden transform-[rotateY(180deg)]">
                                                 <p className="text-[#000080] font-bold font-montserrat text-lg 2xl:text-3xl">
                                                     {String(service.id).padStart(2, '0')}
                                                 </p>

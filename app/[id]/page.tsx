@@ -206,7 +206,7 @@ const Page = async ({ params }: { params: Promise<{ [key: string]: string | stri
 
   console.log(id)
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Details data={selectedCourse} />
     </div>
   )
